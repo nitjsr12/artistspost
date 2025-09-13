@@ -50,13 +50,13 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "elena.torres@artist.com",
+      value: "kanvasugal@gmail.com",
       description: "Best way to reach me for inquiries"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "(555) 123-4567",
+      value: "91 7676389809",
       description: "Available Mon-Fri, 9AM-6PM PST"
     },
     {
@@ -225,8 +225,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Response Time</h3>
                     <p className="text-gray-600 text-sm">
-                      I typically respond to all inquiries within 24 hours. For commission requests, 
-                      I'll schedule a consultation call to discuss your vision in detail.
+                      In order to purchase or commission art, payment is to be made through a bank transfer after the invoice has been received. Once the payment has been received and credited to our account, we will produce and ship your order.
                     </p>
                   </div>
                 </CardContent>

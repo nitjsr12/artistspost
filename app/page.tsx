@@ -85,7 +85,7 @@ export default function Home() {
             <div className={`relative transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
               <div className="relative z-10 group">
                 <img
-                  src="https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg"
+                  src="/Acrylic/IMG_20200313_120402.jpg"
                   alt="Featured Artwork"
                   className="rounded-2xl shadow-2xl w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -169,9 +169,7 @@ export default function Home() {
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">The Artist</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Elena Torres is a contemporary artist whose work explores the intersection of emotion, 
-                nature, and human experience. Her paintings are characterized by vibrant colors and 
-                dynamic compositions.
+              Kanvasugal is the result of serendipity, when artists Nisha and Ani crossed paths and realized that together they can create works which express their artistic temperament to its advantage. 
               </p>
               <div className="flex items-center space-x-8">
                 <div className="flex items-center space-x-3">
@@ -181,16 +179,16 @@ export default function Home() {
                     <div className="text-sm text-gray-600">5+ Art Prizes</div>
                   </div>
                 </div>
-                <div className="flex items-center space-x-3">
+                {/* <div className="flex items-center space-x-3">
                   <Users className="h-8 w-8 text-indigo-600" />
                   <div>
                     <div className="font-semibold text-gray-900">Students</div>
                     <div className="text-sm text-gray-600">300+ Taught</div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <Link href="/about">
-                <Button variant="outline" className="border-indigo-600 text-indigo-600 hover:bg-indigo-50">
+                <Button variant="outline" className="border-indigo-600 text-indigo-600 hover:bg-indigo-50 mt-4 px-8 py-3 transform hover:scale-105 transition-all duration-300">
                   Learn More About Me
                 </Button>
               </Link>

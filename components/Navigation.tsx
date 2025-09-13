@@ -36,7 +36,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center space-x-2 group">
             <Palette className="h-8 w-8 text-indigo-600 group-hover:rotate-12 transition-transform duration-300" />
             <span className="font-bold text-xl text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">
-              Elena Torres
+              Kanvasugal
             </span>
           </Link>
           

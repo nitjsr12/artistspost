@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { 
   Award, 
@@ -83,7 +84,7 @@ export default function About() {
           <div className={`text-center space-y-6 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div className="overflow-hidden">
               <h1 className={`text-4xl md:text-6xl font-bold text-gray-900 transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-                About <span className="text-indigo-600">Elena</span>
+                About <span className="text-indigo-600">Kanvasugal</span>
               </h1>
             </div>
             <p className={`text-lg text-gray-600 max-w-2xl mx-auto transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
@@ -108,20 +109,12 @@ export default function About() {
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Elena Torres is a contemporary artist whose work explores the intersection of emotion, 
-                  nature, and human experience. Born and raised in California, she developed her unique 
-                  style through years of experimentation with various mediums and techniques.
+                  Kanvasugal is the result of serendipity, when artists Nisha and Ani crossed paths and realized that together they can create works which express their artistic temperament to its advantage.
                 </p>
                 <p>
-                  Her paintings are characterized by vibrant colors, dynamic compositions, and an 
-                  intuitive approach to form and space. Elena's work has been featured in galleries 
-                  across the United States and has found homes in private collections worldwide.
+                 The search for the perfect painting is more than just a quest for a beautiful work of art. It is an existential journey into our own inner world, illuminating our desires, fears, hopes or state of being. This search is not about finding a flawless work of art, but rather, about finding ourselves hidden beneath the layers of societal expectations. The paintings reveal  who we truly are, and the search for the perfect painting becomes a journey into the very heart of our own existence.
                 </p>
-                <p>
-                  When not painting, Elena enjoys teaching art workshops and mentoring emerging artists. 
-                  She believes that art has the power to heal, inspire, and bring people together 
-                  across cultural and linguistic boundaries.
-                </p>
+               
               </div>
 
               <div className="pt-6">
@@ -135,10 +128,10 @@ export default function About() {
 
             <div className={`relative transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
               <div className="relative z-10 group">
-                <img
-                  src="https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg"
+                <Image
+                  src="/about.jpg " width={600} height={900}
                   alt="Elena Torres in her studio"
-                  className="rounded-2xl shadow-2xl w-full h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="rounded-2xl shadow-2xl w-full h-[700px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
