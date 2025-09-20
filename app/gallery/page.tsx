@@ -21,14 +21,14 @@ interface Painting {
 const paintings: Painting[] = [
   {
     id: 1,
-    title: "Serene Landscape",
+    title: "Vineyards",
     year: "2024",
     medium: "Oil on Canvas",
     dimensions: "24\" x 36\"",
     price: "$1,200",
-    image: "https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg",
+    image: "/Watercolour/Vineyards for us to Dwell.jpg",
     description: "A peaceful landscape capturing the golden hour light",
-    category: "landscape"
+    category: "Watercolour"
   },
   {
     id: 2,
@@ -37,9 +37,9 @@ const paintings: Painting[] = [
     medium: "Acrylic on Canvas",
     dimensions: "18\" x 24\"",
     price: "$800",
-    image: "https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg",
+    image: "/Watercolour/Sweetness of Anticipation .jpg",
     description: "Modern city life reflected in glass and water",
-    category: "urban"
+    category: "Watercolour"
   },
   {
     id: 3,
@@ -48,9 +48,9 @@ const paintings: Painting[] = [
     medium: "Mixed Media",
     dimensions: "30\" x 40\"",
     price: "$1,500",
-    image: "https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg",
+    image: "/Watercolour/Lifeline of the shores .jpg",
     description: "An exploration of color and form expressing deep emotions",
-    category: "abstract"
+    category: "Watercolour"
   },
   {
     id: 4,
@@ -59,9 +59,9 @@ const paintings: Painting[] = [
     medium: "Oil on Canvas",
     dimensions: "16\" x 20\"",
     price: "$950",
-    image: "https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg",
+    image: "/Watercolour/IMG-20200226-WA0011.jpg",
     description: "A detailed portrait study focusing on light and shadow",
-    category: "portrait"
+    category: "Watercolour"
   },
   {
     id: 5,
@@ -70,31 +70,31 @@ const paintings: Painting[] = [
     medium: "Watercolor",
     dimensions: "12\" x 16\"",
     price: "$650",
-    image: "https://images.pexels.com/photos/1086711/pexels-photo-1086711.jpeg",
+    image: "/Watercolour/IMG-20200226-WA0010.jpg",
     description: "Delicate watercolor capturing the essence of nature",
-    category: "nature"
+    category: "Watercolour"
   },
   {
     id: 6,
-    title: "Geometric Dreams",
+    title: "Fortress of Solitude",
     year: "2024",
     medium: "Acrylic on Canvas",
     dimensions: "20\" x 20\"",
     price: "$750",
-    image: "https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg",
+    image: "/Watercolour/Fortress of Solitude.jpg",
     description: "A modern geometric interpretation of dreams and aspirations",
-    category: "abstract"
+    category: "Watercolour"
   },
   {
     id: 7,
-    title: "Coastal Breeze",
+    title: "Bouquet of Stars",
     year: "2024",
     medium: "Oil on Canvas",
     dimensions: "28\" x 42\"",
     price: "$1,400",
-    image: "https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg",
+    image: "/Watercolour/Bouquet of Stars in Scarlet.jpg",
     description: "Ocean waves meeting the shore in perfect harmony",
-    category: "landscape"
+    category: "Watercolour"
   },
   {
     id: 8,
@@ -103,10 +103,65 @@ const paintings: Painting[] = [
     medium: "Acrylic on Canvas",
     dimensions: "22\" x 30\"",
     price: "$1,100",
-    image: "https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg",
+    image: "/Watercolour/1599710657638_Silent_Flame_Flame_of_the_Forest__06414.jpg",
     description: "The vibrant energy of city nightlife captured in paint",
-    category: "urban"
-  }
+    category: "Watercolour"
+  },
+  {
+    id: 9,
+    title: "City Lights",
+    year: "2023",
+    medium: "Acrylic on Canvas",
+    dimensions: "22\" x 30\"",
+    price: "$1,100",
+    image: "/Watercolour/1599709883730_Clusters_of_Heavenliness_Rose_Apple__61575.jpg",
+    description: "The vibrant energy of city nightlife captured in paint",
+    category: "Watercolour"
+  },
+  {
+    id: 10,
+    title: "City Lights",
+    year: "2023",
+    medium: "Acrylic on Canvas",
+    dimensions: "22\" x 30\"",
+    price: "$1,100",
+    image: "/Watercolour/1599709742114_Bouquet_of_Stars_in_Scarlet_Ixora__66293.jpg",
+    description: "The vibrant energy of city nightlife captured in paint",
+    category: "Watercolour"
+  },
+  {
+    id: 11,
+    title: "City Lights",
+    year: "2023",
+    medium: "Acrylic on Canvas",
+    dimensions: "22\" x 30\"",
+    price: "$1,100",
+    image: "/Watercolour/1599709610463_Beautiful_Introvert_Touch_me_Not__92893.jpg",
+    description: "The vibrant energy of city nightlife captured in paint",
+    category: "Watercolour"
+  },
+  {
+    id: 12,
+    title: "City Lights",
+    year: "2023",
+    medium: "Acrylic on Canvas",
+    dimensions: "22\" x 30\"",
+    price: "$1,100",
+    image: "/Acrylic/20201107_141524.jpg",
+    description: "The vibrant energy of city nightlife captured in paint",
+    category: "Acrylic"
+  },
+  {
+    id: 13,
+    title: "City Lights",
+    year: "2023",
+    medium: "Acrylic on Canvas",
+    dimensions: "22\" x 30\"",
+    price: "$1,100",
+    image: "/Acrylic/20210627_105123.jpg",
+    description: "The vibrant energy of city nightlife captured in paint",
+    category: "Acrylic"
+  },
 ];
 
 export default function Gallery() {
@@ -114,7 +169,7 @@ export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [isVisible, setIsVisible] = useState(false);
 
-  const categories = ['all', 'landscape', 'urban', 'abstract', 'portrait', 'nature'];
+  const categories = ['all', 'Watercolour', 'Mural', 'Acrylic',];
   
   const filteredPaintings = activeCategory === 'all' 
     ? paintings 

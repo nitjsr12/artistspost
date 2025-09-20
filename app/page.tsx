@@ -69,15 +69,15 @@ export default function Home() {
               <div className={`grid grid-cols-3 gap-8 pt-8 transition-all duration-700 delay-1300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
                 <div className="text-center group">
                   <div className="text-2xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">50+</div>
-                  <div className="text-sm text-gray-600">Artworks</div>
+                  <div className="text-sm text-gray-600">Watercolour</div>
                 </div>
                 <div className="text-center group">
                   <div className="text-2xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">12</div>
-                  <div className="text-sm text-gray-600">Exhibitions</div>
+                  <div className="text-sm text-gray-600">Mural</div>
                 </div>
                 <div className="text-center group">
                   <div className="text-2xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">200+</div>
-                  <div className="text-sm text-gray-600">Collectors</div>
+                  <div className="text-sm text-gray-600">Acrylic</div>
                 </div>
               </div>
             </div>
@@ -115,19 +115,19 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
               {
-                image: "https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg",
-                title: "Urban Reflections",
+                image: "/Watercolour/1599709742114_Bouquet_of_Stars_in_Scarlet_Ixora__66293.jpg",
+                title: "Watercolour",
                 category: "Contemporary"
               },
               {
-                image: "https://images.pexels.com/photos/1183992/pexels-photo-1183992.jpeg",
+                image: "/Acrylic/20201107_141524.jpg",
                 title: "Abstract Emotions",
-                category: "Abstract"
+                category: "Mural"
               },
               {
-                image: "https://images.pexels.com/photos/1086711/pexels-photo-1086711.jpeg",
+                image: "/Acrylic/20210627_105123.jpg",
                 title: "Nature's Symphony",
-                category: "Landscape"
+                category: "Acryli"
               }
             ].map((work, index) => (
               <div 
