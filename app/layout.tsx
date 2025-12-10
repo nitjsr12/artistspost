@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Elena Torres - Contemporary Artist',
+  title: 'Kanvasugal - Contemporary Artist',
   description: 'Contemporary artist portfolio showcasing vibrant paintings that explore emotion, nature, and human experience.',
   keywords: 'artist, paintings, contemporary art, gallery, portraits, landscapes, abstract art',
 };

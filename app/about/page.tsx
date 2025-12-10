@@ -175,52 +175,8 @@ export default function About() {
       </section>
 
       {/* Timeline Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className={`text-center space-y-4 mb-16 transition-all duration-1000 delay-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Career Timeline</h2>
-            <p className="text-lg text-gray-600">
-              Key moments and milestones in my artistic journey
-            </p>
-          </div>
-
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-indigo-200"></div>
-            
-            <div className="space-y-12">
-              {timeline.map((event, index) => (
-                <div 
-                  key={index}
-                  className={`relative flex items-start space-x-6 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}
-                  style={{ animationDelay: `${1200 + index * 200}ms` }}
-                >
-                  {/* Timeline dot */}
-                  <div className="flex-shrink-0 w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg transform hover:scale-110 transition-transform duration-300">
-                    {event.year}
-                  </div>
-                  
-                  {/* Content */}
-                  <Card className="flex-1 hover:shadow-lg transition-shadow duration-300">
-                    <CardContent className="p-6">
-                      <div className="space-y-2">
-                        <h3 className="text-xl font-semibold text-gray-900">{event.title}</h3>
-                        <div className="flex items-center space-x-2 text-indigo-600">
-                          <MapPin className="w-4 h-4" />
-                          <span className="text-sm font-medium">{event.location}</span>
-                        </div>
-                        <p className="text-gray-600 leading-relaxed">{event.description}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Skills & Techniques */}
+      {/* ÷
+      {/* Skills & Techniques
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center space-y-4 mb-16 transition-all duration-1000 delay-1400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -263,7 +219,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

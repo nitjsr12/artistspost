@@ -56,13 +56,13 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      value: "91 7676389809",
+      value: "97 1588302971",
       description: "Available Mon-Fri, 9AM-6PM PST"
     },
     {
       icon: MapPin,
       title: "Studio Location",
-      value: "Los Angeles, California",
+      value: "Dubai, UAE",
       description: "Studio visits by appointment only"
     }
   ];
