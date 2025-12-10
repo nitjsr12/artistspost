@@ -127,7 +127,7 @@ export default function Home() {
               {
                 image: "/Acrylic/20210627_105123.jpg",
                 title: "Nature's Symphony",
-                category: "Acryli"
+                category: "Acrylic"
               }
             ].map((work, index) => (
               <div 
