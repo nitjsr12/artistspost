@@ -73,8 +73,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li>Custom Paintings</li>
               <li>Portrait Commissions</li>
-              <li>Art Workshops</li>
-              <li>Private Lessons</li>
               <li>Gallery Exhibitions</li>
             </ul>
           </div>
