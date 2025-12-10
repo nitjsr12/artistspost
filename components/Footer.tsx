@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Palette className="h-8 w-8 text-indigo-400" />
-              <span className="font-bold text-xl">Elena Torres</span>
+              <span className="font-bold text-xl">Kanvasugal</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Contemporary artist exploring the boundaries between reality and imagination through 
