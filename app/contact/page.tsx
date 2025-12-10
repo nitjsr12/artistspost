@@ -56,7 +56,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      value: "+971588302971",
+      value: "+971 588302971",
       description: "Available Mon-Fri, 9AM-6PM PST"
     },
     {
